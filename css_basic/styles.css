@@ -7,7 +7,7 @@ body{
 
 main{
     display:flex;
-    flex-direction: columns;
+    flex-direction: row;
     flex:auto;
 }
 
