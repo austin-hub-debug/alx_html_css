@@ -22,3 +22,8 @@ aside {
     overflow-y: auto;
     padding: 20px;
 }
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+}
