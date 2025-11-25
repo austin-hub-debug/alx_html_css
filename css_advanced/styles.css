@@ -266,3 +266,22 @@ h4{
 }
 
 /*Footer Section*/
+footer{
+    background-color: rgb(7, 22, 41);
+    margin-top: 80px;
+    align-items: center;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF;
+    padding: 40px 120px;
+}
+.last-p{
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px;
+    color: rgb(83, 94, 107);
+}
