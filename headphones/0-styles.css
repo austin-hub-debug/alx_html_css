@@ -1,10 +1,17 @@
 /*header and first section styles*/
+
+:root{
+    --primary-color:#EF5555;
+    --primary-color-hover:#ff6b6b;
+    --light-color:#ffff;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Source Sans 3', sans-serif;
-    color:#FFFFFF;
+    color:var(--light-color);
 }
 
 
@@ -56,11 +63,11 @@ nav li a{
 }
 
 button{
-    background-color: #EF5555;
+    background-color:var(--primary-color);
     border-radius: 25px;
     padding:10px 20px;
     border: none;
-    color: #FFFFFF;
+    color: var(--light-color);
     margin-top: 40px;
     margin-bottom: 60px;
 
@@ -74,11 +81,11 @@ button{
 }
 
 a:hover{
-    color: #ff6b6b;
+    color: var(--primary-color-hover);
     cursor: pointer;
 }
 
 button:hover{
-    background-color:#ff6b6b;
+    background-color:var(--primary-color-hover);
     cursor:pointer;
 }
