@@ -7,31 +7,38 @@
     <link rel="icon" href="Images/favicon.ico">
     <link rel="stylesheet" href="1-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="https://holberton-school.github.io/holberton_school-icon/style.css">
 </head>
 <body>
-    <div class="hero-section">
-    <header>
+        <section class="hero-section">
         <nav>
-            <img src="Images/logo_headphones.png" alt="HeadPhones logo" class="logo">
-            <ul>
-                <li><a href="#">what we do</a></li>
-                <li><a href="#">our results</a></li>
-                <li><a href="#">contact us</a></li>
+            <div class="logo">
+                <img src="Images/logo_headphones.png" alt="">
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" placeholder="none">
+            <label for="menu-toggle" class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#what-we-do">what we do</a></li>
+                <li><a href="#results">our results</a></li>
+                <li><a href="#contact">contact us</a></li>
             </ul>
         </nav>
-    </header>
-    <section class="hero">
-            <div>
-            <h2>Lorem ipsum dolor sit amet Lorem ipsum</h2>
-            <h4>Lorem ipsum dolor sit amet Lorem ipsum.</h4>
-            <button type="button">CALL TO ACTION</button>
-            <div class="text">
-            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est inventore, consequatur earum porro placeat impedit vel voluptatem non nihil, eaque rem amet beatae. Necessitatibus enim deleniti ea recusandae iure! Magnam, error! Totam iste ex veniam excepturi, sed laborum dolorum ipsam illo eum voluptatibus. Minima sed porro dignissimos eum fugit, voluptatibus cum, rerum, esse sint iste eaque facere!</p>
-            </div>
-            </div>
-        </section>
-    </div>
+
+        <div class="hero-content">
+            <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+            <p class="hero-subtitle">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+            <button class="cta-button">Call to Action</button>
+            
+            <p class="hero-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+    </section>
     <section class="what-we-do-section">
         <div class="section-content">
             <h2>What we do...</h2>
