@@ -44,7 +44,7 @@
         .logo-icon {
             width: 35px;
             height: 35px;
-            background-color: #ff6b6b;
+            background-color: var(--primary-color);
             clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
         }
 
@@ -62,14 +62,14 @@
         }
 
         .nav-links a {
-            color: white;
+            color: var(--light-color);
             text-decoration: none;
             font-size: 14px;
             transition: color 0.3s;
         }
 
         .nav-links a:hover {
-            color: #ff6b6b;
+            color:var(--primary-color-hover);
         }
 
         /* Hamburger Menu */
@@ -83,7 +83,7 @@
         .hamburger span {
             width: 25px;
             height: 3px;
-            background-color: white;
+            background-color:var(--light-color);
             transition: all 0.3s;
         }
 
@@ -132,7 +132,7 @@
         .cta-button {
             display: inline-block;
             padding: 15px 40px;
-            background-color: #ff6b6b;
+            background-color: var(--primary-color);
             color: white;
             text-decoration: none;
             border-radius: 25px;
@@ -146,7 +146,7 @@
         }
 
         .cta-button:hover {
-            background-color: #ff5252;
+            background-color:var(--primary-color-hover);
             transform: translateY(-2px);
         }
 
@@ -233,7 +233,7 @@
 .what-we-do-section {
             padding: 80px 20px;
             text-align: center;
-            background-color: #f8f8f8;
+            background-color: var(--light-color);
         }
 
         .section-content {
@@ -273,7 +273,7 @@
 
         .icon-container {
             font-size: 80px;
-            color: #ff6b6b;
+            color:var(--primary-color);
             margin-bottom: 30px;
             height: 100px;
             display: flex;
@@ -362,7 +362,7 @@
         }
 
         .results-section h2 {
-            color: white;
+            color: var(--light-color);
             font-size: 36px;
             font-weight: 600;
             margin-bottom: 30px;
@@ -407,7 +407,7 @@
         }
 
         .stat-number {
-            color: white;
+            color: var(--light-color);
             font-size: 48px;
             font-weight: bold;
             margin-bottom: 5px;
@@ -456,7 +456,7 @@
 }
 
         .contact-container {
-            background-color: white;
+            background-color:var(--light-color);
             padding: 60px 80px;
             width: 100%;
             max-width: 600px;
@@ -504,8 +504,8 @@
             display: block;
             margin: 40px auto 0;
             padding: 12px 40px;
-            background: #ff6b6b;
-            color: white;
+            background: var(--primary-color);
+            color: var(--light-color);
             border: none;
             border-radius: 25px;
             font-size: 12px;
@@ -517,7 +517,7 @@
         }
 
         .submit-btn:hover {
-            background: #ff5252;
+            background: var(--primary-color-hover);
         }
 
 /*footer section*/
@@ -543,7 +543,7 @@
         }
 
         .logo-text {
-            color: white;
+            color:var(--light-color);
             font-size: 18px;
             font-weight: bold;
             text-transform: uppercase;
@@ -558,7 +558,7 @@
         .social-link {
             width: 35px;
             height: 35px;
-            background-color: white;
+            background-color: var(--light-color);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -571,8 +571,8 @@
         }
 
         .social-link:hover {
-            background-color: #ff6b6b;
-            color: white;
+            background-color: var(--primary-color-hover);
+            color: var(--light-color);
         }
 
         .footer-bottom {
